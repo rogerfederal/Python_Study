@@ -6,10 +6,11 @@ from multiprocessing import Process
 from selenium import webdriver
 import csv
 from time import sleep
+from concurrent.futures import ProcessPoolExecutor
 
 urls = ['http://www.kugou.com/yy/rank/home/{}-8888.html?from=homepage'.format(n) for n in range(1,24)]
 header = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36"}
-fp = open(r'/root/top500.csv','wt',newline='')
+fp = open(r'/Users/StephenChou/Desktop/mp3/top500.csv','wt',newline='')
 writer = csv.writer(fp)
 writer.writerow(('rank','song_name','download_link'))
 
@@ -49,7 +50,7 @@ def download_url_(sub_url,rank,song):
             print("downloading %s" %rank)
             mp3_link = download.attrs['src']
             writer.writerow((rank, song,download.attrs['src']))
-            f = open(r'/root/mp3/%s.mp3' %song,'wb')
+            f = open(r'/Users/StephenChou/Desktop/mp3/%s.mp3' %song,'wb')
             mp3 = requests.get(mp3_link,headers=header).content
             f.write(mp3)
             f.close()
@@ -62,5 +63,7 @@ if __name__ == "__main__":
     # for url in range(len(urls)):
     #     # get_download(url)
     #     Process(target=get_info,args=(urls[url],)).start()
-    for url in urls:
-        get_info(url)
+    # for url in urls:
+    #     get_info(url)
+    with ProcessPoolExecutor(max_workers=10) as pool:
+        pool.map(get_info,urls)
