@@ -31,14 +31,14 @@ def get_info(url):
 #########################################################################
 
 
-# def get_download(url,rank,song):
-#     wd_data = requests.get(url,headers=header).text
-#     soup2 = BeautifulSoup(wd_data,"html.parser")
-#     items_download = soup2.find_all('a',attrs={'class':'pc_temp_songname'})
-#     for item_download in items_download:
-#         download_url = item_download.attrs['href']
-#         download_url_(download_url)
-#
+def get_download(url,rank,song):
+    wd_data = requests.get(url,headers=header).text
+    soup2 = BeautifulSoup(wd_data,"html.parser")
+    items_download = soup2.find_all('a',attrs={'class':'pc_temp_songname'})
+    for item_download in items_download:
+        download_url = item_download.attrs['href']
+        download_url_(download_url)
+
 def download_url_(sub_url,rank,song):
     browser = webdriver.Firefox()
     browser.get(sub_url)

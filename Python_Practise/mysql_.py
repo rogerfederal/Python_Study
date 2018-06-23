@@ -1,6 +1,6 @@
 import pymysql
 
-conn = pymysql.connect(host='130.49.136.103', port=3306, user='remote', passwd='Zking2001', db='student', charset='utf8')
+conn = pymysql.connect(host='47.94.80.95', port=3333, user='root', passwd='Xiaoxian0910', db='student', charset='utf8')
 cursor = conn.cursor()
 # for i in range(1,11):
 #     cursor.execute("INSERT INTO userinfo(username, passwd) VALUES (\"admin{}\", \"000000\")".format(i));
