@@ -5,11 +5,9 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from concurrent.futures import ProcessPoolExecutor
 import pymysql
 from selenium import webdriver
-from time import sleep
 
 urls = ['http://www.kugou.com/yy/rank/home/{}-8888.html?from=homepage'.format(n) for n in range(1,24)]
 header = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36"}
-conn = pymysql.connect(host='47.94.80.95', port=3333, user='root', passwd='Xiaoxian0910', db='kugou', charset='utf8')
 
 def get_info(url):
     wb_data = requests.get(url,headers=header).text
@@ -29,6 +27,7 @@ def get_info(url):
             for download in downloads:
                 mp3_link = download.attrs['src']
                 print("inserting %s into mysql DB" % song)
+                conn = pymysql.connect(host='47.94.80.95', port=3333, user='root', passwd='', db='kugou', charset='utf8')
                 cursor = conn.cursor()
                 sql = "INSERT INTO kugou.kugou_top500 (rank, song, link) VALUES(%s,%s,%s)"
                 cursor.execute(sql, (rank, song, mp3_link))
@@ -43,5 +42,3 @@ def get_info(url):
 if __name__ == "__main__":
     with ProcessPoolExecutor(max_workers=5) as pool:
         pool.map(get_info,urls)
-    # for url in urls:
-    #     get_info(url)

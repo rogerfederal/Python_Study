@@ -9,7 +9,7 @@ import pymysql
 
 urls = ['https://www.pexels.com/popular-photos/?page={}'.format(n) for n in range(1,20)]
 header = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36"}
-conn = pymysql.connect(host='47.94.80.95', port=3333, user='root', passwd='Xiaoxian0910', db='pexels', charset='utf8')
+
 
 def get_info(url):
         response = requests.get(url,verify=False,headers=header).text
@@ -21,24 +21,13 @@ def get_info(url):
             for pic_url in pic_urls:
                 # try:
                 print("inserting %s into mysql DB" % title)
+                conn = pymysql.connect(host='47.94.80.95', port=3333, user='root', passwd='', db='pexels', charset='utf8')
                 cursor = conn.cursor()
                 sql = "INSERT INTO pexels.popular_pics (title, pic_url) VALUES(%s,%s)"
                 cursor.execute(sql, (title,pic_url))
                 conn.commit()
                 cursor.close()
                 conn.close()
-                # except:
-                #     print("any errors happened. continue...")
-#
-# def download(pic_url,title):
-#     try:
-#         pic2_stream = requests.get(pic_url,verify=False, headers=header).content
-#         f = open(r'/root/pics/{}.jpg'.format(title), 'wb')
-#         print("downloading %s picture" %title)
-#         f.write(pic2_stream)
-#         f.close()
-#     except:
-#         print("Any error happens")
 
 if __name__ == "__main__":
     pool = ProcessPoolExecutor(max_workers=5)
