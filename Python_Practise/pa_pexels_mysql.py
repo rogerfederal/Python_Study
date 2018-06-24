@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-pic_list = []
 import re
 from concurrent.futures import ProcessPoolExecutor
 import pymysql
@@ -19,7 +18,6 @@ def get_info(url):
             img = item.attrs['data-large-src']
             pic_urls = re.findall(r'https://.*\.(?:jpeg|jpg)',img)
             for pic_url in pic_urls:
-                # try:
                 print("inserting %s into mysql DB" % title)
                 conn = pymysql.connect(host='47.94.80.95', port=3333, user='root', passwd='', db='pexels', charset='utf8')
                 cursor = conn.cursor()
