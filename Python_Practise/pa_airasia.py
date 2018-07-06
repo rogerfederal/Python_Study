@@ -33,7 +33,7 @@ def getInfo(url,day):
         conn.close()
 
 if __name__ == "__main__":
-    begin = datetime.date(2018, 7, 2)
+    begin = datetime.date(2018, 11, 1)
     end = datetime.date(2019, 3, 1)
     for i in range((end - begin).days + 1):
         day = begin + datetime.timedelta(days=i)
