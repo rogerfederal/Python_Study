@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from lxml import etree
 from wxpy import *
 import datetime
+from time import sleep
 # -*- coding: utf-8 -*-
 
 url = 'https://www.dy2018.com/html/gndy/dyzz/index.html'
@@ -35,8 +36,9 @@ def send_news(title,link):
     try:
             my_friend.send(title)
             my_friend.send(link)
+            sleep(3)
     except:
-        my_friend = bot.friends().search('老于')[0]
+        my_friend = bot.friends().search('Vishal S')[0]
         my_friend.send(u"今天消息发送失败了")
 
 if __name__ == "__main__":
