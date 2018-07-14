@@ -21,6 +21,7 @@ for url in urls:
     date = soup.find_all('td',attrs={'align':'center'})
     for i,j in zip(range(0,len(date),5),range(2,len(date),5)):
         print(date[i].text,date[j].text)
+        print("writing {0} & {1} data".format(date[i].text,k))
         table.write(k+1,0,str(date[i].text))
         table.write(k+1,1,str(date[j].text).replace('\n','#'))
         k += 1
