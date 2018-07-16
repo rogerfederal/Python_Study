@@ -33,24 +33,28 @@ def GenBall():
         qiu = list(set(qiu))
     lan = random.choice(nums)
     qiu.append(lan)
-    qiu_result = ''.join(qiu)
-    qiu_result_list.append(qiu_result)
-    print(qiu_result_list)
-    return qiu_result_list
+    print(qiu)
+    return qiu
+    # qiu_result = ''.join(qiu)
+    # qiu_result_list.append(qiu_result)
+    # print(qiu_result_list)
+    # return qiu_result_list
 
 
 if __name__ == "__main__":
-    getExcel()
-    while True:
+    # getExcel()
+    # while True:
+    #     GenBall()
+    #     k += 1
+    #     if qiu_result_list in test2:
+    #         print(k)
+    #         print("got it")
+    #         break
+    #     else:
+    #         print(qiu_result_list)
+    #         print(k)
+    for m in range(0,6):
         GenBall()
-        k += 1
-        if qiu_result_list in test2:
-            print(k)
-            print("got it")
-            break
-        else:
-            print(qiu_result_list)
-            print(k)
 
 
 
