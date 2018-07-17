@@ -1,11 +1,13 @@
 from wxpy import *
 
-bot = Bot(cache_path=False)
+bot = Bot(cache_path=True)
 
-@bot.register(chats=None,msg_types=TEXT,enabled=True)
+@bot.register(chats=None,msg_types=TEXT,except_self=True,enabled=True)
 def print_chat_msg(msg):
-  if "hell" in msg.text:
-    print(msg)
+ # print(type(str(msg)))
+  f = open(r'/root/hsbc/wechat_msg.txt','a+')
+  f.write(str(msg.sender)+msg.text+'\n')
+  f.close()
 bot.join()
 
 # my_friend = bot.friends().search(u'Vishal S')[0]
