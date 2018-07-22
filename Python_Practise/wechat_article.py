@@ -1,7 +1,7 @@
 import wechatsogou
 import xlwt
 
-gzh_list = ['linux就该这么学']
+gzh_list = ['']
 # k = 0
 # file = xlwt.Workbook()
 # table = file.add_sheet('gzh', cell_overwrite_ok=True)
