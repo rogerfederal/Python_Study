@@ -11,7 +11,7 @@ from concurrent.futures import ProcessPoolExecutor
 # logging.basicConfig(level=logging.DEBUG,
 #                     format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 
-urls = ['http://91porn.com/v.php?next=watch&page={}'.format(n) for n in range(5,4333)]
+urls = ['http://91porn.com/v.php?next=watch&page={}'.format(n) for n in range(2,4333)]
 header = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
 
 def getInfo(url):
