@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <META HTTP-EQUIV="Refresh" CONTENT="30">
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+        <style>
+            .nav{
+                background: #3a3a3a;
+                height: 65px;
+            }
+            ul{
+                overflow: hidden
+            }
+            ul li{
+               float: left;
+               list-style: none;
+               padding: 0 10px;
+               line-height: 65px;
+            }
+            ul li a{
+                color: #fff;
+            }
+        </style>
+</head>
+<body>
+<div class="nav">
+    <ul>
+        <li><a href="{{ url_for('index')}}">Index</a></li>
+        <li><a href="{{ url_for('login')}}">Login</a></li>
+        <li><a href="{{ url_for('pipeline_configurations')}}">Pipeline Configurations</a></li>
+        <li><a href="{{ url_for('sonarqube_info')}}">Sonarqube Info</a></li>
+    </ul>
+</div>
+{% block main%}{% endblock %}
+</body>
+</html>

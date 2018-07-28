@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Sonarqube Info StaffView (API)
+{% endblock %}
+
+{% block main %}
+<h1><span class="title1">This is Sonarqube Info page</span></h1>
+<table border="1" cellspacing="0" cellpadding="0"  align="center">
+    <thead>
+        <th><font size="2" face="arial" color="black">Name</font></th>
+        <th><font size="2" face="arial" color="black">Version & Scan date</font></th>
+        <th><font size="2" face="arial" color="black">Quality Gate Result</font></th>
+    </thead>
+        {% for i in result %}
+            <tr  align="center">
+                <td><font size="2" face="arial" color="black">{{ i[0] }}</font></td>
+                <td><font size="2" face="arial" color="black">{{ i[1] }}</font></td>
+                <td><font size="2" face="arial" color="black">{{ i[2] }}</font></td>
+            </tr>
+        {% endfor %}
+</table>
+{% endblock %}

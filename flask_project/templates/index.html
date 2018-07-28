@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Index
+{% endblock %}
+
+{% block main %}
+<h1><span  style="background: green">This is main page</span></h1>
+<!--<div style="background: blue; width=30px">Teddy</div>-->
+<link rel="stylesheet" href="{{ url_for('static',filename='css/index.css')}}">
+{% endblock %}
