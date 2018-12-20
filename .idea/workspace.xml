@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="initial">
-      <change afterPath="$PROJECT_DIR$/Python_Practise/sockersrvclient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/socketsrv.py" afterDir="false" />
+    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Python_Practise/pa_chinatax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/filter_.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/filter_.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Study$pa_111av.coverage" NAME="pa_111av Coverage Results" MODIFIED="1543664559867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$dengchashulie.coverage" NAME="dengchashulie Coverage Results" MODIFIED="1544624004671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$filter_.coverage" NAME="filter_ Coverage Results" MODIFIED="1544448342905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$filter_.coverage" NAME="filter_ Coverage Results" MODIFIED="1545228104679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_airasia.coverage" NAME="pa_airasia Coverage Results" MODIFIED="1544447612506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$filter.coverage" NAME="filter Coverage Results" MODIFIED="1544448365111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_xml.coverage" NAME="pa_xml Coverage Results" MODIFIED="1543152755935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
@@ -25,6 +25,7 @@
     <SUITE FILE_PATH="coverage/Python_Study$sde_switch.coverage" NAME="sde_switch Coverage Results" MODIFIED="1544190466005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$test_assert.coverage" NAME="test_assert Coverage Results" MODIFIED="1543239095053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$google_voice_text.coverage" NAME="google_voice_text Coverage Results" MODIFIED="1540716781393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_chinatax.coverage" NAME="pa_chinatax Coverage Results" MODIFIED="1545314166540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_quora.coverage" NAME="pa_quora Coverage Results" MODIFIED="1543449594325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_tucao.coverage" NAME="pa_tucao Coverage Results" MODIFIED="1544450506170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_airbnb.coverage" NAME="pa_airbnb Coverage Results" MODIFIED="1543498428315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
@@ -44,24 +45,24 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python_Practise/socketsrv.py">
+        <entry file="file://$PROJECT_DIR$/Python_Practise/pa_chinatax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="36" lean-forward="true" selection-end-line="19" />
+            <state relative-caret-position="78">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python_Practise/sockersrvclient.py">
+        <entry file="file://$PROJECT_DIR$/Python_Practise/filter_.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -74,6 +75,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>webdriver.Chrome</find>
+      <find>html.p</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,6 +100,8 @@
         <option value="$PROJECT_DIR$/Python_Practise/dengchashulie.py" />
         <option value="$PROJECT_DIR$/Python_Practise/socketsrv.py" />
         <option value="$PROJECT_DIR$/Python_Practise/sockersrvclient.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/filter_.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/pa_chinatax.py" />
       </list>
     </option>
   </component>
@@ -105,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,7 +131,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dengchashulie">
+  <component name="RunManager" selected="Python.pa_chinatax">
     <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,28 +193,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/filter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="filter_" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,6 +207,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/filter_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pa_chinatax" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/pa_chinatax.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,19 +260,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.filter_" />
-      <item itemvalue="Python.filter" />
       <item itemvalue="Python.decorator" />
       <item itemvalue="Python.pa_tucao" />
       <item itemvalue="Python.dengchashulie" />
+      <item itemvalue="Python.pa_chinatax" />
+      <item itemvalue="Python.filter_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pa_chinatax" />
+        <item itemvalue="Python.filter_" />
         <item itemvalue="Python.dengchashulie" />
         <item itemvalue="Python.pa_tucao" />
         <item itemvalue="Python.decorator" />
-        <item itemvalue="Python.filter" />
-        <item itemvalue="Python.filter_" />
       </list>
     </recent_temporary>
   </component>
@@ -284,14 +293,18 @@
       <workItem from="1544447487033" duration="597000" />
       <workItem from="1544449991365" duration="791000" />
       <workItem from="1544621910840" duration="3349000" />
-      <workItem from="1544861449307" duration="1235000" />
+      <workItem from="1544861449307" duration="1424000" />
+      <workItem from="1545133554776" duration="1834000" />
+      <workItem from="1545223436085" duration="571000" />
+      <workItem from="1545224431818" duration="3555000" />
+      <workItem from="1545312326227" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
-      <created>1540623013606</created>
+      <created>1544868290564</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1540623013607</updated>
+      <updated>1544868290564</updated>
     </task>
     <task id="LOCAL-00002" summary="initial">
       <created>1544624402990</created>
@@ -300,27 +313,27 @@
       <option name="project" value="LOCAL" />
       <updated>1544624402990</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1482000" />
+    <option name="totallyTimeSpent" value="7952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2911302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1595136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.52771086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -341,6 +354,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python_Practise/socketsrv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python_Practise/sockersrvclient.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -348,13 +371,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/socketsrv.py">
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_91.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="36" lean-forward="true" selection-end-line="19" />
+        <state relative-caret-position="-217">
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_91_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_111av.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_chinatax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/filter_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
