@@ -13,10 +13,7 @@ header = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 
 proxy = {}
 urls = ['http://icanhazip.com']
 
-
-def getProxy(url):
-    global boy
-    global girl
+def GetProxy():
     response = requests.get(proxy_url)
     proxies_list = response.text.split('\n')
     for proxy_str in proxies_list:
@@ -26,17 +23,21 @@ def getProxy(url):
         type = proxy_json['type']
         try:
             telnetlib.Telnet(host, port=port, timeout=3)
-            proxy[type] = str(host)+":"+str(port)
-            response = requests.get(url,proxies=proxy,headers=header,verify=False)
-            if response.status_code == 200:
-                print(response.text)
-            else:
-                raise exit(1)
+            yield type,str(host)+":"+str(port)
         except:
             pass
+
+def UseProxy(url):
+    for proxy_type,host_with_ip in GetProxy():
+        proxy[proxy_type] = host_with_ip
+        response = requests.get(url,proxies=proxy,headers=header,verify=False)
+        if response.status_code == 200:
+            print(response.text)
+        else:
+            raise exit(1)
 
 
 if __name__ == '__main__':
     pool = ProcessPoolExecutor(max_workers=10)
-    pool.map(getProxy,urls)
+    pool.map(UseProxy,urls)
 

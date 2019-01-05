@@ -31,10 +31,13 @@ def getProxy(proxy_str):
     host = proxy_json['host']
     port = proxy_json['port']
     type = proxy_json['type']
-    verify(host,port,type)
+    if type == "https":
+        pass
+    else:
+        verify(host,port,type)
 
 
 if __name__ == '__main__':
-    pool = ProcessPoolExecutor(max_workers=10)
+    pool = ProcessPoolExecutor(max_workers=100)
     pool.map(getProxy,proxies_list)
 
