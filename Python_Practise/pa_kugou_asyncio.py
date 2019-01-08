@@ -7,7 +7,7 @@ import json
 song_hash_list = []
 import requests
 
-main_url = "https://specialsearch.kugou.com/special_search?callback=&keyword=80%E5%90%8E&page=1&pagesize=100"
+main_url = "https://specialsearch.kugou.com/special_search?callback=&keyword=80后&page=1&pagesize=100"
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36"}
 
 async def GetSong(session,id):
@@ -30,13 +30,17 @@ async def GetSong(session,id):
             # img = response_json.get('data').get('img')
             mp3 = response_json.get('data').get('play_url')
             song_title = response_json.get('data').get('audio_name')
+            song_lyrics = response_json.get('data').get('lyrics')
             print(song_title,"  ",mp3)
             try:
                 song = requests.get(mp3,headers=headers).content
                 f_obj = open(r'/Users/u44084750/Desktop/mp3/{}.mp3'.format(song_title),'wb')
+                f_lyrics = open(r'/Users/u44084750/Desktop/mp3/{}.lrc'.format(song_title), 'w')
                 print("Downloading {}".format(song_title))
                 f_obj.write(song)
                 f_obj.close()
+                f_lyrics.write(song_lyrics)
+                f_lyrics.close()
             except:
                 pass
 
