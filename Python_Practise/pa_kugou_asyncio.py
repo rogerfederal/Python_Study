@@ -7,7 +7,7 @@ import json
 song_hash_list = []
 import requests
 
-main_url = "https://specialsearch.kugou.com/special_search?callback=&keyword=80后&page=1&pagesize=100"
+main_url = "https://specialsearch.kugou.com/special_search?callback=&keyword=80后&page=1&pagesize=1"
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36"}
 
 async def GetSong(session,id):
