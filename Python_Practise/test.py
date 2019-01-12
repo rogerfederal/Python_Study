@@ -1,8 +1,15 @@
-list = [n for n in range(2,102,2)]
+import random
+
+original = [3,4,5]
+time = 0
 
 
-sum = 0
-
-for n in list:
-    sum = sum + n
-    print(sum,n)
+while True:
+    a = random.choice(original)
+    b = random.choice(original)
+    c = random.choice(original)
+    d = (a*10+b)*c
+    time += 1
+    print("a multiple b is {}".format(d))
+    if time == 100:
+        break

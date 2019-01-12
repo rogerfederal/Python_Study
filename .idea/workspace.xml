@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="">
+    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="initial">
+      <change afterPath="$PROJECT_DIR$/Python_Practise/pa_kugou_selenium.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python_Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/test.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +20,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Study$pa_nashui.coverage" NAME="pa_nashui Coverage Results" MODIFIED="1545516843438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_111av.coverage" NAME="pa_111av Coverage Results" MODIFIED="1543664559867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_selenium.coverage" NAME="pa_kugou_selenium Coverage Results" MODIFIED="1547255792518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_91_selenium.coverage" NAME="pa_91_selenium Coverage Results" MODIFIED="1546667222538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$ipproxy_pool.coverage" NAME="ipproxy_pool Coverage Results" MODIFIED="1546321250488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$filter_.coverage" NAME="filter_ Coverage Results" MODIFIED="1545228104679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
@@ -25,9 +28,9 @@
     <SUITE FILE_PATH="coverage/Python_Study$wechat_xiangkang.coverage" NAME="wechat_xiangkang Coverage Results" MODIFIED="1546238517003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_chinatax_2.coverage" NAME="pa_chinatax_2 Coverage Results" MODIFIED="1546786964090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$wxpy_send_message_manually.coverage" NAME="wxpy_send_message_manually Coverage Results" MODIFIED="1546241669161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_asyncio.coverage" NAME="pa_kugou_asyncio Coverage Results" MODIFIED="1547132738529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$kugou2__1_.coverage" NAME="kugou2 (1) Coverage Results" MODIFIED="1547145246760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
-    <SUITE FILE_PATH="coverage/Python_Study$test.coverage" NAME="test Coverage Results" MODIFIED="1545921768497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_asyncio.coverage" NAME="pa_kugou_asyncio Coverage Results" MODIFIED="1547250571385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$kugou2__1_.coverage" NAME="kugou2 (1) Coverage Results" MODIFIED="1547146306587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/Python_Study$test.coverage" NAME="test Coverage Results" MODIFIED="1547273082198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_raddit.coverage" NAME="pa_raddit Coverage Results" MODIFIED="1543126282106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$sde_switch.coverage" NAME="sde_switch Coverage Results" MODIFIED="1544190466005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_chinatax.coverage" NAME="pa_chinatax Coverage Results" MODIFIED="1545549456621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
@@ -40,7 +43,7 @@
     <SUITE FILE_PATH="coverage/Python_Study$pa_airasia.coverage" NAME="pa_airasia Coverage Results" MODIFIED="1546667243488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$filter.coverage" NAME="filter Coverage Results" MODIFIED="1544448365111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_xml.coverage" NAME="pa_xml Coverage Results" MODIFIED="1543152755935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$ipproxy_pool_test.coverage" NAME="ipproxy_pool_test Coverage Results" MODIFIED="1546654710128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$ipproxy_pool_test.coverage" NAME="ipproxy_pool_test Coverage Results" MODIFIED="1547247537522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$wechat_message.coverage" NAME="wechat_message Coverage Results" MODIFIED="1546238842640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$wxpy_send_msg_auto.coverage" NAME="wxpy_send_msg_auto Coverage Results" MODIFIED="1546261503413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_atiohttp.coverage" NAME="pa_atiohttp Coverage Results" MODIFIED="1546786903921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
@@ -48,6 +51,7 @@
     <SUITE FILE_PATH="coverage/Python_Study$test_assert.coverage" NAME="test_assert Coverage Results" MODIFIED="1543239095053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$google_voice_text.coverage" NAME="google_voice_text Coverage Results" MODIFIED="1540716781393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_tucao.coverage" NAME="pa_tucao Coverage Results" MODIFIED="1544450506170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_asyncio_2.coverage" NAME="pa_kugou_asyncio_2 Coverage Results" MODIFIED="1547251090085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$wechat_dy2018.coverage" NAME="wechat_dy2018 Coverage Results" MODIFIED="1546238949987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$kugou.coverage" NAME="kugou Coverage Results" MODIFIED="1546952986277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
   </component>
@@ -65,21 +69,11 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python_Study" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;6ffeb98e-0416-43a4-92e4-b4e587f2ec8a&gt;/kugou2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,6 +98,8 @@
       <find>45.76.16.119</find>
       <find>https</find>
       <find>昆泰</find>
+      <find>proxies=proxy,</find>
+      <find>EC</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,35 +124,47 @@
         <option value="$PROJECT_DIR$/Python_Practise/pa_nashui_photo.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_nashui.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_chinatax.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/test.py" />
         <option value="$PROJECT_DIR$/Python_Practise/wechat_xiangkang.py" />
         <option value="$PROJECT_DIR$/Python_Practise/itchat_f_m.py" />
         <option value="$PROJECT_DIR$/Python_Practise/wxpy_send_message_manually.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_12306.py" />
         <option value="$PROJECT_DIR$/Python_Practise/wxpy_send_msg_auto.py" />
         <option value="$PROJECT_DIR$/Python_Practise/ipproxy_pool.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/verified_proxies.json" />
         <option value="$PROJECT_DIR$/Python_Practise/ipproxy_pool_test.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_chinatax_2.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_atiohttp.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_yibu.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_geci.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py" />
         <option value="&lt;6ffeb98e-0416-43a4-92e4-b4e587f2ec8a&gt;/kugou2.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/verified_proxies.json" />
+        <option value="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/pa_kugou_selenium.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python_Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Practise" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -166,7 +174,8 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -181,8 +190,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kugou2 (1)">
-    <configuration name="kugou" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="ipproxy_pool_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,12 +199,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="&lt;6ffeb98e-0416-43a4-92e4-b4e587f2ec8a&gt;/Python/kugou.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/ipproxy_pool_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kugou2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kugou2 (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,50 +227,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="&lt;6ffeb98e-0416-43a4-92e4-b4e587f2ec8a&gt;/kugou2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="kugou2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="&lt;6ffeb98e-0416-43a4-92e4-b4e587f2ec8a&gt;/root/Python/kugou2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pa_geci" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/pa_geci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,25 +257,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pa_kugou_asyncio_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pa_kugou_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/pa_kugou_selenium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.pa_kugou_asyncio" />
-      <item itemvalue="Python.kugou" />
-      <item itemvalue="Python.kugou2" />
-      <item itemvalue="Python.pa_geci" />
       <item itemvalue="Python.kugou2 (1)" />
+      <item itemvalue="Python.pa_kugou_asyncio" />
+      <item itemvalue="Python.ipproxy_pool_test" />
+      <item itemvalue="Python.pa_kugou_asyncio_2" />
+      <item itemvalue="Python.pa_kugou_selenium" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.kugou2 (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.pa_kugou_selenium" />
+        <item itemvalue="Python.pa_kugou_asyncio_2" />
         <item itemvalue="Python.pa_kugou_asyncio" />
-        <item itemvalue="Python.pa_geci" />
-        <item itemvalue="Python.kugou2" />
-        <item itemvalue="Python.kugou" />
+        <item itemvalue="Python.ipproxy_pool_test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="REMOTE_SDK" />
+    <option name="myConnectionId" value="sftp://root@techinfo.xin:22/root/anaconda3/bin/python" />
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -349,7 +386,11 @@
       <workItem from="1546952399857" duration="2765000" />
       <workItem from="1547130527202" duration="1413000" />
       <workItem from="1547132203352" duration="5989000" />
-      <workItem from="1547145008845" duration="327000" />
+      <workItem from="1547145008845" duration="1401000" />
+      <workItem from="1547146469415" duration="9000" />
+      <workItem from="1547224339413" duration="34000" />
+      <workItem from="1547247097369" duration="8699000" />
+      <workItem from="1547272658920" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1544868290564</created>
@@ -400,16 +441,48 @@
       <option name="project" value="LOCAL" />
       <updated>1546952611386</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial">
+      <created>1547145347760</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547145347761</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66625000" />
+    <option name="totallyTimeSpent" value="77463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.21459228" />
+      <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
+      <window_info id="Favorites" order="2" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5795181" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3282123" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.47206703" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32960895" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20314735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,10 +493,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3282123" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26955307" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36312848" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -432,7 +505,7 @@
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3297568" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -511,13 +584,6 @@
           <folding>
             <element signature="e#103#133#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -630,23 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/verified_proxies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="44" lean-forward="true" selection-end-line="4056" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/ipproxy_pool_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -772,16 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python_Practise/bdbutton.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -793,16 +832,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python_Practise/pa_geci.py" />
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -813,5 +842,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-762431203/744208625/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="453" column="11" lean-forward="true" selection-start-line="453" selection-start-column="11" selection-end-line="453" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/verified_proxies.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/ipproxy_pool_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="889" column="42" lean-forward="true" selection-start-line="889" selection-start-column="42" selection-end-line="889" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="868" column="44" lean-forward="true" selection-start-line="868" selection-start-column="44" selection-end-line="868" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41001353" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
