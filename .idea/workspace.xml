@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="initial">
-      <change afterPath="$PROJECT_DIR$/Python_Practise/pa_kugou_selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Python_Practise/pa_chaojiying.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/test.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,6 +42,7 @@
     <SUITE FILE_PATH="coverage/Python_Study$wechat_message.coverage" NAME="wechat_message Coverage Results" MODIFIED="1546238842640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$wxpy_send_msg_auto.coverage" NAME="wxpy_send_msg_auto Coverage Results" MODIFIED="1546261503413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_atiohttp.coverage" NAME="pa_atiohttp Coverage Results" MODIFIED="1546786903921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_chaojiying.coverage" NAME="pa_chaojiying Coverage Results" MODIFIED="1547352340375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1546667148345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$test_assert.coverage" NAME="test_assert Coverage Results" MODIFIED="1543239095053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$google_voice_text.coverage" NAME="google_voice_text Coverage Results" MODIFIED="1540716781393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
@@ -73,7 +69,20 @@
     <favorites_list name="Python_Study" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python_Practise/pa_chaojiying.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+              <folding>
+                <element signature="e#38#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,10 +150,11 @@
         <option value="$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_kugou_selenium.py" />
         <option value="$PROJECT_DIR$/Python_Practise/test.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/pa_chaojiying.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="808" />
@@ -154,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,29 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="ipproxy_pool_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/ipproxy_pool_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.pa_chaojiying">
     <configuration name="kugou2 (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,6 +215,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="&lt;6ffeb98e-0416-43a4-92e4-b4e587f2ec8a&gt;/kugou2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pa_chaojiying" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/pa_chaojiying.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,18 +336,18 @@
     <list>
       <item itemvalue="Python.kugou2 (1)" />
       <item itemvalue="Python.pa_kugou_asyncio" />
-      <item itemvalue="Python.ipproxy_pool_test" />
       <item itemvalue="Python.pa_kugou_asyncio_2" />
       <item itemvalue="Python.pa_kugou_selenium" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.pa_chaojiying" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pa_chaojiying" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.pa_kugou_selenium" />
         <item itemvalue="Python.pa_kugou_asyncio_2" />
         <item itemvalue="Python.pa_kugou_asyncio" />
-        <item itemvalue="Python.ipproxy_pool_test" />
       </list>
     </recent_temporary>
   </component>
@@ -391,6 +401,8 @@
       <workItem from="1547224339413" duration="34000" />
       <workItem from="1547247097369" duration="8699000" />
       <workItem from="1547272658920" duration="1022000" />
+      <workItem from="1547304655155" duration="204000" />
+      <workItem from="1547351031682" duration="901000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1544868290564</created>
@@ -448,21 +460,28 @@
       <option name="project" value="LOCAL" />
       <updated>1547145347761</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1547304673018</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547304673018</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77463000" />
+    <option name="totallyTimeSpent" value="78568000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.21459228" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.22031474" />
       <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
       <window_info id="Favorites" order="2" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5795181" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32289156" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,7 +531,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Python_Practise/socketsrv.py">
@@ -905,6 +925,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_chaojiying.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
