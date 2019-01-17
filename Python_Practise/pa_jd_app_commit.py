@@ -2,7 +2,7 @@ import requests
 #
 #
 # 文件路径
-path = '/Users/u44084750/Desktop/mp33/'
+path = '/Users/u44084750/Desktop/mp3/'
 num = 1788
 
 
@@ -10,7 +10,10 @@ def response(flow):
     global num
     # 经测试发现视频url前缀主要是3个
     target_urls = ['http://v1-dy.ixigua.com/', 'http://v9-dy-z.ixigua.com/',
-                   'http://v3-dy.ixigua.com/']
+                   'http://v3-dy-y.ixigua.com/','http://v3-dy.ixigua.com/',
+                   'http://v9-dy-x.ixigua.com/','http://v6-dy.ixigua.com/',
+                   'http://v3-dy-x.ixigua.com/','http://v3-dy-z.ixigua.com/',
+                   'http://v9-dy.ixigua.com/','http://v9-dy-z.ixigua.com/']
     for url in target_urls:
         if flow.request.url.startswith(url):
             # with open("/Users/u44084750/Desktop/mp33/url.txt",'a') as f:
