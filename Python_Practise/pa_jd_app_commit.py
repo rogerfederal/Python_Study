@@ -40,10 +40,10 @@ post_data = {
     "level_city": "西安市"
 }
 
-def request(flow):
-    urls = ["https://106.75.100.113/bbs/v5/Post/getPostByType?"]
-    if urls[0] in flow.request.url:
-        response = requests.post(url=flow.request.url,headers=flow.request.headers,data=post_data,verify=False)
+# def request(flow):
+#     urls = ["https://106.75.100.113/bbs/v5/Post/getPostByType?"]
+#     if urls[0] in flow.request.url:
+#         response = requests.post(url=flow.request.url,headers=flow.request.headers,data=post_data,verify=False)
         # if response.status_code == 200:
         #     response_json = json.loads(response.text)
         #     response_list = response_json.get('info').get('data').get('data_list')
@@ -72,3 +72,18 @@ def request(flow):
  # flow.request.headers['User-Agent'] = 'MitmProxy'
 #
 #  print(flow.request.headers)
+
+
+import re
+import requests
+
+with open('/Users/u44084750/Desktop/raw') as e:
+    datas = e.readlines()
+    for data in datas:
+        results = re.findall(r'taqu_\w*.jpg',data)
+        for result in results:
+            url = "https://forumimg01.jiaoliuqu.com/"+result
+            response = requests.get(url).content
+            print("Writing {}".format(result))
+            with open('/Users/u44084750/Desktop/mp3/{}'.format(result),'wb') as f:
+                f.write(response)

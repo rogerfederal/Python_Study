@@ -7,6 +7,7 @@ import json
 song_hash_list = []
 import requests
 import traceback
+import pymongo
 
 
 urls = [
@@ -860,6 +861,10 @@ urls = [
             "https://www.kugou.com/yy/special/single/328676.html", "https://www.kugou.com/yy/special/single/371933.html"
         ]
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36"}
+uri = "mongodb://kugou_admin:Xiaoxian0910@localhost:27017"
+client = pymongo.MongoClient(uri)
+db = client['kugou']
+collection = db['kugoump3']
 
 async def GetSong(session):
     for url_2 in urls:
@@ -883,14 +888,17 @@ async def GetSong(session):
             async with session.get(url,headers=headers) as response:
                 response = await response.read()
                 response_json = json.loads(response.decode('utf-8'))
-                # img = response_json.get('data').get('img')
+                img = response_json.get('data').get('img')
                 mp3 = response_json.get('data').get('play_url')
                 song_title = response_json.get('data').get('audio_name')
                 song_lyrics = response_json.get('data').get('lyrics')
-                print(song_title,"  ",mp3)
-                data = song_title + "#" + mp3 + "\n"
-                with open("/Users/u44084750/Desktop/mp3/url.txt", 'a') as f:
-                    f.write(data)
+                record = {'name': song_title, 'link': mp3, 'lyrics': song_lyrics, 'img': img}
+                print("Writing {}".format(song_title))
+                collection.insert(record)
+                # print(song_title,"  ",mp3)
+                # data = song_title + "#" + mp3 + "\n"
+                # with open("/Users/u44084750/Desktop/mp3/url.txt", 'a') as f:
+                #     f.write(data)
 
         # try:
         #
