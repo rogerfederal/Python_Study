@@ -53,7 +53,7 @@ if __name__ == "__main__":
     #     else:
     #         print(qiu_result_list)
     #         print(k)
-    for m in range(0,6):
+    for m in range(0,5):
         GenBall()
 
 
