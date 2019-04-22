@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/ec2_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/acloudguru.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/check_modify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/guru.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/id_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/lambda_dynamodb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/modify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/remove_duplicated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/server-side.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/bdbutton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/pa_91.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/pa_91.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,51 +33,62 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Study$pa_nashui.coverage" NAME="pa_nashui Coverage Results" MODIFIED="1545516843438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_111av.coverage" NAME="pa_111av Coverage Results" MODIFIED="1543664559867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_selenium.coverage" NAME="pa_kugou_selenium Coverage Results" MODIFIED="1547255792518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_91_selenium.coverage" NAME="pa_91_selenium Coverage Results" MODIFIED="1546667222538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$ipproxy_pool.coverage" NAME="ipproxy_pool Coverage Results" MODIFIED="1546321250488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_mongo_client.coverage" NAME="pa_mongo_client Coverage Results" MODIFIED="1548078528774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_wallpaper.coverage" NAME="pa_wallpaper Coverage Results" MODIFIED="1548512391308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$filter_.coverage" NAME="filter_ Coverage Results" MODIFIED="1545228104679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$s3.coverage" NAME="s3 Coverage Results" MODIFIED="1551105505140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_12306.coverage" NAME="pa_12306 Coverage Results" MODIFIED="1546242508971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$wechat_xiangkang.coverage" NAME="wechat_xiangkang Coverage Results" MODIFIED="1546238517003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_chinatax_2.coverage" NAME="pa_chinatax_2 Coverage Results" MODIFIED="1546786964090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$wxpy_send_message_manually.coverage" NAME="wxpy_send_message_manually Coverage Results" MODIFIED="1546241669161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_wechat_mp.coverage" NAME="pa_wechat_mp Coverage Results" MODIFIED="1547564705057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_asyncio.coverage" NAME="pa_kugou_asyncio Coverage Results" MODIFIED="1548076092828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$compare.coverage" NAME="compare Coverage Results" MODIFIED="1555811867374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$kugou2__1_.coverage" NAME="kugou2 (1) Coverage Results" MODIFIED="1547146306587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
-    <SUITE FILE_PATH="coverage/Python_Study$test.coverage" NAME="test Coverage Results" MODIFIED="1547912159560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_91.coverage" NAME="pa_91 Coverage Results" MODIFIED="1551915555288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_raddit.coverage" NAME="pa_raddit Coverage Results" MODIFIED="1543126282106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_91.coverage" NAME="pa_91 Coverage Results" MODIFIED="1555153475558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$caipiao2.coverage" NAME="caipiao2 Coverage Results" MODIFIED="1550669806741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$sde_switch.coverage" NAME="sde_switch Coverage Results" MODIFIED="1544190466005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_chinatax.coverage" NAME="pa_chinatax Coverage Results" MODIFIED="1545549456621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_quora.coverage" NAME="pa_quora Coverage Results" MODIFIED="1543449594325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_airbnb.coverage" NAME="pa_airbnb Coverage Results" MODIFIED="1543498428315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$dengchashulie.coverage" NAME="dengchashulie Coverage Results" MODIFIED="1544624004671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$itchat_f_m.coverage" NAME="itchat_f_m Coverage Results" MODIFIED="1546241538178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_jd_app_commit.coverage" NAME="pa_jd_app_commit Coverage Results" MODIFIED="1547965478418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$kugou2.coverage" NAME="kugou2 Coverage Results" MODIFIED="1546955004692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_geci.coverage" NAME="pa_geci Coverage Results" MODIFIED="1546957515885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_airasia.coverage" NAME="pa_airasia Coverage Results" MODIFIED="1546667243488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$filter.coverage" NAME="filter Coverage Results" MODIFIED="1544448365111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_xml.coverage" NAME="pa_xml Coverage Results" MODIFIED="1543152755935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_douyin_appium.coverage" NAME="pa_douyin_appium Coverage Results" MODIFIED="1547681408385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$ipproxy_pool_test.coverage" NAME="ipproxy_pool_test Coverage Results" MODIFIED="1547863682857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$base64_method.coverage" NAME="base64_method Coverage Results" MODIFIED="1548986360835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$wechat_message.coverage" NAME="wechat_message Coverage Results" MODIFIED="1546238842640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$wxpy_send_msg_auto.coverage" NAME="wxpy_send_msg_auto Coverage Results" MODIFIED="1546261503413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$ec2_func.coverage" NAME="ec2_func Coverage Results" MODIFIED="1551487091593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_atiohttp.coverage" NAME="pa_atiohttp Coverage Results" MODIFIED="1546786903921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_chaojiying.coverage" NAME="pa_chaojiying Coverage Results" MODIFIED="1547352340375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1550499575106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$get_min_ping.coverage" NAME="get_min_ping Coverage Results" MODIFIED="1551015172712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$dynamodb_update.coverage" NAME="dynamodb_update Coverage Results" MODIFIED="1555767360744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$test_assert.coverage" NAME="test_assert Coverage Results" MODIFIED="1543239095053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$google_voice_text.coverage" NAME="google_voice_text Coverage Results" MODIFIED="1540716781393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_tucao.coverage" NAME="pa_tucao Coverage Results" MODIFIED="1544450506170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_asyncio_2.coverage" NAME="pa_kugou_asyncio_2 Coverage Results" MODIFIED="1547251090085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$wechat_dy2018.coverage" NAME="wechat_dy2018 Coverage Results" MODIFIED="1546238949987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$server_side.coverage" NAME="server-side Coverage Results" MODIFIED="1555509676447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_selenium.coverage" NAME="pa_kugou_selenium Coverage Results" MODIFIED="1547255792518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$lambda_dynamodb.coverage" NAME="lambda_dynamodb Coverage Results" MODIFIED="1555153306684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$ipproxy_pool.coverage" NAME="ipproxy_pool Coverage Results" MODIFIED="1546321250488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_mongo_client.coverage" NAME="pa_mongo_client Coverage Results" MODIFIED="1548078528774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_wallpaper.coverage" NAME="pa_wallpaper Coverage Results" MODIFIED="1548512391308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_12306.coverage" NAME="pa_12306 Coverage Results" MODIFIED="1546242508971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$wechat_xiangkang.coverage" NAME="wechat_xiangkang Coverage Results" MODIFIED="1546238517003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_chinatax_2.coverage" NAME="pa_chinatax_2 Coverage Results" MODIFIED="1546786964090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$guru.coverage" NAME="guru Coverage Results" MODIFIED="1555748135280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$wxpy_send_message_manually.coverage" NAME="wxpy_send_message_manually Coverage Results" MODIFIED="1546241669161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_asyncio.coverage" NAME="pa_kugou_asyncio Coverage Results" MODIFIED="1548076092828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$read_dynamodb.coverage" NAME="read_dynamodb Coverage Results" MODIFIED="1555697001389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$check.coverage" NAME="check Coverage Results" MODIFIED="1555811000357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$acloudguru.coverage" NAME="acloudguru Coverage Results" MODIFIED="1555598779602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$test.coverage" NAME="test Coverage Results" MODIFIED="1547912159560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_raddit.coverage" NAME="pa_raddit Coverage Results" MODIFIED="1543126282106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$sde_switch.coverage" NAME="sde_switch Coverage Results" MODIFIED="1544190466005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_chinatax.coverage" NAME="pa_chinatax Coverage Results" MODIFIED="1545549456621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_quora.coverage" NAME="pa_quora Coverage Results" MODIFIED="1543449594325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_jd_app_commit.coverage" NAME="pa_jd_app_commit Coverage Results" MODIFIED="1547965478418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$temp.coverage" NAME="temp Coverage Results" MODIFIED="1555734114083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_geci.coverage" NAME="pa_geci Coverage Results" MODIFIED="1546957515885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$filter.coverage" NAME="filter Coverage Results" MODIFIED="1544448365111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_xml.coverage" NAME="pa_xml Coverage Results" MODIFIED="1543152755935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$wechat_message.coverage" NAME="wechat_message Coverage Results" MODIFIED="1546238842640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$ec2_func.coverage" NAME="ec2_func Coverage Results" MODIFIED="1555153444522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$get_min_ping.coverage" NAME="get_min_ping Coverage Results" MODIFIED="1551015172712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$remove_duplicated.coverage" NAME="remove_duplicated Coverage Results" MODIFIED="1555223991420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$google_voice_text.coverage" NAME="google_voice_text Coverage Results" MODIFIED="1540716781393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$pa_kugou_asyncio_2.coverage" NAME="pa_kugou_asyncio_2 Coverage Results" MODIFIED="1547251090085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$id_name.coverage" NAME="id_name Coverage Results" MODIFIED="1555766440927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$kugou.coverage" NAME="kugou Coverage Results" MODIFIED="1546952986277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
   </component>
   <component name="DatabaseView">
@@ -84,13 +110,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python_Practise/pa_91.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_Practise/aws/download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="249">
+              <caret line="17" column="27" lean-forward="true" selection-end-line="40" selection-end-column="71" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python_Practise/aws/check_modify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="20" column="42" lean-forward="true" selection-end-line="51" selection-end-column="42" />
+              <folding>
+                <element signature="e#66#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,29 +157,58 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>webdriver.Chrome</find>
-      <find>html.p</find>
-      <find>get_codeing</find>
-      <find>中铁二十一局集团第四工程有限公司</find>
-      <find>text</find>
-      <find>企业纳税信用等级查询</find>
-      <find>403</find>
-      <find>hi your sister</find>
-      <find>xiaozhu</find>
-      <find>from concurrent.futures import ProcessPoolExecutor</find>
       <find>logging</find>
-      <find>45.76.16.119</find>
-      <find>https</find>
-      <find>昆泰</find>
-      <find>proxies=proxy,</find>
-      <find>EC</find>
-      <find>proxy_str</find>
-      <find>Data</find>
-      <find>map</find>
-      <find>terminated</find>
-      <find>InstanceId</find>
-      <find>stat</find>
+      <find>113fb82d-8d59-27ed-01f2-f0706c227313</find>
+      <find>automating</find>
+      <find>beginners</find>
+      <find>python-for-beginners</find>
+      <find>aws-cloudformation-intro</find>
+      <find>gcp-certified-professional-cloud-architect</find>
+      <find>aws-advanced-cloudformation</find>
+      <find>intro-ansible</find>
+      <find>gcp-certified-associate-cloud-engineer</find>
+      <find>Welcome</find>
+      <find>lambda-edge</find>
+      <find>01-Introduction</find>
+      <find>02-Data-Stores</find>
+      <find>03-Networking</find>
+      <find>media_url</find>
+      <find>aws-codedeploy</find>
+      <find>04-Security</find>
+      <find>0e152aa3-3f9e-4eda-d7ce-5777fa32f990</find>
+      <find>course_id2</find>
+      <find>course_id</find>
+      <find>56b6830d-c918-1c5d-1ddf-ba1e67117212</find>
+      <find>'</find>
+      <find>medis_url</find>
+      <find>course_name</find>
+      <find>aws-csysops-2019</find>
+      <find>acloudguru2/aws-certified-devops-engineer-professional-2019</find>
+      <find>aws-csa-pro-2019</find>
+      <find>aws-certified-devops-engineer-professional-2019</find>
+      <find>aws-devops-pro</find>
     </findStrings>
+    <replaceStrings>
+      <replace>automation</replace>
+      <replace>aws-cloudformation-intro</replace>
+      <replace>intro-ansible</replace>
+      <replace>aws-codedeploy</replace>
+      <replace>aws-advanced-cloudformation</replace>
+      <replace>lambda-edge</replace>
+      <replace>02-Data-Stores</replace>
+      <replace>03-Networking</replace>
+      <replace>04-Security</replace>
+      <replace>05-Migrations</replace>
+      <replace>medis_url</replace>
+      <replace>media_url</replace>
+      <replace>course_id</replace>
+      <replace>course_name</replace>
+      <replace>aws-csa-pro-2019</replace>
+      <replace>acloudguru/acloudguru2/aws-certified-devops-engineer-professional-2019</replace>
+      <replace>aws-certified-devops-engineer-professional-2019</replace>
+      <replace>aws-devops-pro</replace>
+      <replace>gcp-certified-professional-cloud-architect</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,17 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python_Practise/pa_111av.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_raddit.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_xml.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/test_assert.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_quora.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_airbnb.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/sde_switch.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_airasia.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_tucao.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/dengchashulie.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/socketsrv.py" />
         <option value="$PROJECT_DIR$/Python_Practise/sockersrvclient.py" />
         <option value="$PROJECT_DIR$/Python_Practise/filter_.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_nashui_photo.py" />
@@ -183,6 +251,22 @@
         <option value="$PROJECT_DIR$/Python_Practise/aws/s3.py" />
         <option value="$PROJECT_DIR$/Python_Practise/aws/ec2.py" />
         <option value="$PROJECT_DIR$/Python_Practise/aws/ec2_func.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/pa_91.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/lambda_dynamodb.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/remove_duplicated.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/modify.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/server-side.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/acloudguru.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/read_dynamodb.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/temp.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/guru.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/id_name.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/check.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/compare.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/download.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/check_modify.py" />
       </list>
     </option>
   </component>
@@ -195,7 +279,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,15 +286,11 @@
               <item name="Python_Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Practise" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python_Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Practise" type="462c0819:PsiDirectoryNode" />
-              <item name="aws" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,30 +315,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pa_91">
-    <configuration name="caipiao2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/caipiao2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ec2_func" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.compare">
+    <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,7 +329,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/ec2_func.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/check.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,7 +338,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_min_ping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,12 +346,78 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/get_min_ping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/compare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dynamodb_update" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="guru" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/guru.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="id_name" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/id_name.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,65 +448,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pa_91" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/pa_91.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/s3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.kugou2 (1)" />
-      <item itemvalue="Python.pa_91" />
-      <item itemvalue="Python.caipiao2" />
-      <item itemvalue="Python.get_min_ping" />
-      <item itemvalue="Python.s3" />
-      <item itemvalue="Python.ec2_func" />
+      <item itemvalue="Python.id_name" />
+      <item itemvalue="Python.dynamodb_update" />
+      <item itemvalue="Python.guru" />
+      <item itemvalue="Python.check" />
+      <item itemvalue="Python.compare" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pa_91" />
-        <item itemvalue="Python.ec2_func" />
-        <item itemvalue="Python.s3" />
-        <item itemvalue="Python.get_min_ping" />
-        <item itemvalue="Python.caipiao2" />
+        <item itemvalue="Python.compare" />
+        <item itemvalue="Python.check" />
+        <item itemvalue="Python.dynamodb_update" />
+        <item itemvalue="Python.id_name" />
+        <item itemvalue="Python.guru" />
       </list>
     </recent_temporary>
   </component>
@@ -467,6 +546,19 @@
       <workItem from="1551453911971" duration="1505000" />
       <workItem from="1551485835984" duration="879000" />
       <workItem from="1551913715266" duration="305000" />
+      <workItem from="1552088756496" duration="756000" />
+      <workItem from="1552656136138" duration="858000" />
+      <workItem from="1553691586572" duration="345000" />
+      <workItem from="1554154336581" duration="99000" />
+      <workItem from="1554209196928" duration="11000" />
+      <workItem from="1554986916140" duration="249000" />
+      <workItem from="1555147209131" duration="1246000" />
+      <workItem from="1555175179217" duration="5542000" />
+      <workItem from="1555235362423" duration="980000" />
+      <workItem from="1555282205509" duration="493000" />
+      <workItem from="1555366108176" duration="6104000" />
+      <workItem from="1555420536608" duration="8205000" />
+      <workItem from="1555459038336" duration="64739000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1544868290564</created>
@@ -643,23 +735,29 @@
       <option name="project" value="LOCAL" />
       <updated>1551111180463</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update">
+      <created>1552088776063</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1552088776063</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118794000" />
+    <option name="totallyTimeSpent" value="208421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.3211731" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.20600858" />
       <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
       <window_info id="Favorites" order="2" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56626505" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35060242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -722,160 +820,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/aiohttp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#92#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_chinatax_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_yibu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_pexel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="40" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/bdbutton.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/eyed3/mp3/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="201" column="13" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_geci.py" />
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-762431203/744208625/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="453" column="11" lean-forward="true" selection-start-line="453" selection-start-column="11" selection-end-line="453" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_selenium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="868" column="44" lean-forward="true" selection-start-line="868" selection-start-column="44" selection-end-line="868" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_chaojiying.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-          <folding>
-            <element signature="e#38#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/wechat_message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/sde_switch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/wechat_article.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kugou/kugou/verified_proxies.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/mitmproxy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_wechat_mp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python_Practise/pa_douyin_appium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -909,16 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/ipproxy_pool_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1065,13 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/boto3/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="90" column="36" lean-forward="true" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/lib/python3.6/site-packages/boto3/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1100,22 +1027,210 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_jd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/bdbutton.png" />
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/boto3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="90" column="36" lean-forward="true" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_91.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python_Practise/aws/ec2_func.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_91.py">
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_pexels_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="-61">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="35" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/ipproxy_pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="301" column="4" selection-start-line="301" selection-start-column="4" selection-end-line="301" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_nashui_photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/ipproxy_pool_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/modify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/remove_duplicated.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/server-side.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="e#169#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/lambda_dynamodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/guru.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/id_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/acloudguru.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="e#334#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="27" lean-forward="true" selection-end-line="40" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/check_modify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="42" lean-forward="true" selection-end-line="51" selection-end-column="42" />
+          <folding>
+            <element signature="e#66#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
