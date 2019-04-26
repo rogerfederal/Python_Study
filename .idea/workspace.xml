@@ -4,24 +4,27 @@
     <bookmark url="file://$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py" line="895" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/acloudguru.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/check_modify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/guru.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/id_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/lambda_dynamodb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/modify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/remove_duplicated.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/server-side.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/temp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py" afterDir="false" />
+    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/file_rename.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/file_rename_public.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/bdbutton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/pa_91.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/pa_91.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/acloudguru.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/check_modify.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/ec2_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/guru.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/id_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/lambda_dynamodb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/modify.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/remove_duplicated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/s3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/server-side.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/temp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,9 +44,12 @@
     <SUITE FILE_PATH="coverage/Python_Study$kugou2__1_.coverage" NAME="kugou2 (1) Coverage Results" MODIFIED="1547146306587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_91.coverage" NAME="pa_91 Coverage Results" MODIFIED="1555153475558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$caipiao2.coverage" NAME="caipiao2 Coverage Results" MODIFIED="1550669806741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$rename.coverage" NAME="rename Coverage Results" MODIFIED="1556289293931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_airbnb.coverage" NAME="pa_airbnb Coverage Results" MODIFIED="1543498428315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$dengchashulie.coverage" NAME="dengchashulie Coverage Results" MODIFIED="1544624004671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$itchat_f_m.coverage" NAME="itchat_f_m Coverage Results" MODIFIED="1546241538178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
+    <SUITE FILE_PATH="coverage/Python_Study$delete_dynamodb_tables.coverage" NAME="delete_dynamodb_tables Coverage Results" MODIFIED="1556291663391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$check_rename_3.coverage" NAME="check_rename_3 Coverage Results" MODIFIED="1556284979032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$kugou2.coverage" NAME="kugou2 Coverage Results" MODIFIED="1546955004692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_airasia.coverage" NAME="pa_airasia Coverage Results" MODIFIED="1546667243488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_douyin_appium.coverage" NAME="pa_douyin_appium Coverage Results" MODIFIED="1547681408385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
@@ -109,36 +115,12 @@
     <favorites_list name="Python_Study" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python_Practise/aws/download.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="17" column="27" lean-forward="true" selection-end-line="40" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python_Practise/aws/check_modify.py">
+        <entry file="file://$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="20" column="42" lean-forward="true" selection-end-line="51" selection-end-column="42" />
-              <folding>
-                <element signature="e#66#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="76" />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -157,57 +139,68 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logging</find>
-      <find>113fb82d-8d59-27ed-01f2-f0706c227313</find>
-      <find>automating</find>
-      <find>beginners</find>
-      <find>python-for-beginners</find>
-      <find>aws-cloudformation-intro</find>
-      <find>gcp-certified-professional-cloud-architect</find>
-      <find>aws-advanced-cloudformation</find>
-      <find>intro-ansible</find>
-      <find>gcp-certified-associate-cloud-engineer</find>
-      <find>Welcome</find>
-      <find>lambda-edge</find>
-      <find>01-Introduction</find>
-      <find>02-Data-Stores</find>
-      <find>03-Networking</find>
-      <find>media_url</find>
-      <find>aws-codedeploy</find>
-      <find>04-Security</find>
-      <find>0e152aa3-3f9e-4eda-d7ce-5777fa32f990</find>
-      <find>course_id2</find>
-      <find>course_id</find>
-      <find>56b6830d-c918-1c5d-1ddf-ba1e67117212</find>
-      <find>'</find>
-      <find>medis_url</find>
-      <find>course_name</find>
-      <find>aws-csysops-2019</find>
-      <find>acloudguru2/aws-certified-devops-engineer-professional-2019</find>
-      <find>aws-csa-pro-2019</find>
-      <find>aws-certified-devops-engineer-professional-2019</find>
-      <find>aws-devops-pro</find>
+      <find>azure-web-apps-vsts</find>
+      <find>aws-windows-admin</find>
+      <find>aws-rds</find>
+      <find>aws-dynamodb</find>
+      <find>aws-s3-masterclass</find>
+      <find>aws-redshift-table-design</find>
+      <find>azure-intro-cosmos-db</find>
+      <find>gcp-applied-learning-bigquery</find>
+      <find>azure-foundations-and-compute</find>
+      <find>aws-cost-control</find>
+      <find>application-loadbalancer</find>
+      <find>intro-alexa-free</find>
+      <find>intro-cloud-computing</find>
+      <find>aws-introduction</find>
+      <find>agile-at-scale</find>
+      <find>moving-fast-defined-constraints</find>
+      <find>starting-your-business-transformation</find>
+      <find>Key</find>
+      <find>wardley-mapping</find>
+      <find>sectionIdentifier</find>
+      <find>4775e79f-fe60-3cb0-3d5b-9abbb37a3116</find>
+      <find>key</find>
+      <find>public</find>
+      <find>protected</find>
+      <find>9fa68430-6b18-d5d7-9e48-e685802df317</find>
+      <find>components</find>
+      <find>compon</find>
+      <find>bf5eaac6-86a5-905b-258c-51f93425f28b</find>
+      <find>gcp-101</find>
+      <find>intro-to-azure</find>
     </findStrings>
     <replaceStrings>
-      <replace>automation</replace>
+      <replace>docker-fundamentals</replace>
+      <replace>gcp-certified-associate-cloud-engineer</replace>
+      <replace>coding-for-cloud-101</replace>
+      <replace>automating-aws-with-python</replace>
+      <replace>python-for-beginners</replace>
       <replace>aws-cloudformation-intro</replace>
+      <replace>aws-advanced-cloudformation</replace>
       <replace>intro-ansible</replace>
       <replace>aws-codedeploy</replace>
-      <replace>aws-advanced-cloudformation</replace>
-      <replace>lambda-edge</replace>
-      <replace>02-Data-Stores</replace>
-      <replace>03-Networking</replace>
-      <replace>04-Security</replace>
-      <replace>05-Migrations</replace>
-      <replace>medis_url</replace>
-      <replace>media_url</replace>
-      <replace>course_id</replace>
-      <replace>course_name</replace>
-      <replace>aws-csa-pro-2019</replace>
-      <replace>acloudguru/acloudguru2/aws-certified-devops-engineer-professional-2019</replace>
-      <replace>aws-certified-devops-engineer-professional-2019</replace>
-      <replace>aws-devops-pro</replace>
-      <replace>gcp-certified-professional-cloud-architect</replace>
+      <replace>azure-web-apps-vsts</replace>
+      <replace>aws-windows-admin</replace>
+      <replace>aws-rds</replace>
+      <replace>aws-dynamodb</replace>
+      <replace>aws-s3-masterclass</replace>
+      <replace>aws-redshift-table-design</replace>
+      <replace>azure-intro-cosmos-db</replace>
+      <replace>gcp-applied-learning-bigquery</replace>
+      <replace>azure-foundations-and-compute</replace>
+      <replace>aws-cost-control</replace>
+      <replace>application-loadbalancer</replace>
+      <replace>intro-alexa-free</replace>
+      <replace>aws-introduction</replace>
+      <replace>gcp-101</replace>
+      <replace>intro-to-azure</replace>
+      <replace>agile-at-scale</replace>
+      <replace>moving-fast-defined-constraints</replace>
+      <replace>starting-your-business-transformation</replace>
+      <replace>wardley-mapping</replace>
+      <replace>az-301-architect-design-2019</replace>
+      <replace>intro-cloud-computing</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -216,13 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python_Practise/sockersrvclient.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/filter_.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_nashui_photo.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_nashui.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_chinatax.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/wechat_xiangkang.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/itchat_f_m.py" />
         <option value="$PROJECT_DIR$/Python_Practise/wxpy_send_message_manually.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_12306.py" />
         <option value="$PROJECT_DIR$/Python_Practise/wxpy_send_msg_auto.py" />
@@ -264,9 +250,16 @@
         <option value="$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py" />
         <option value="$PROJECT_DIR$/Python_Practise/aws/check.py" />
         <option value="$PROJECT_DIR$/Python_Practise/aws/compare.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/check_modify.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/docker-devops.py" />
         <option value="$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py" />
         <option value="$PROJECT_DIR$/Python_Practise/aws/download.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/aws/check_modify.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/folder_create_test.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/check_rename_3.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/rename.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/file_rename_public.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/file_rename.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py" />
       </list>
     </option>
   </component>
@@ -279,6 +272,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,11 +280,15 @@
               <item name="Python_Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Practise" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python_Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Practise" type="462c0819:PsiDirectoryNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.compare">
+  <component name="RunManager" selected="Python.delete_dynamodb_tables">
     <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -330,6 +328,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="check_rename_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/check_rename_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -360,7 +380,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dynamodb_update" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="delete_dynamodb_tables" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -373,51 +393,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="guru" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/guru.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="id_name" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/id_name.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -448,21 +424,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rename" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/file_rename.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.kugou2 (1)" />
-      <item itemvalue="Python.id_name" />
-      <item itemvalue="Python.dynamodb_update" />
-      <item itemvalue="Python.guru" />
       <item itemvalue="Python.check" />
       <item itemvalue="Python.compare" />
+      <item itemvalue="Python.rename" />
+      <item itemvalue="Python.check_rename_3" />
+      <item itemvalue="Python.delete_dynamodb_tables" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.delete_dynamodb_tables" />
+        <item itemvalue="Python.rename" />
+        <item itemvalue="Python.check_rename_3" />
         <item itemvalue="Python.compare" />
         <item itemvalue="Python.check" />
-        <item itemvalue="Python.dynamodb_update" />
-        <item itemvalue="Python.id_name" />
-        <item itemvalue="Python.guru" />
       </list>
     </recent_temporary>
   </component>
@@ -558,7 +556,10 @@
       <workItem from="1555282205509" duration="493000" />
       <workItem from="1555366108176" duration="6104000" />
       <workItem from="1555420536608" duration="8205000" />
-      <workItem from="1555459038336" duration="64739000" />
+      <workItem from="1555459038336" duration="85835000" />
+      <workItem from="1556239702958" duration="4893000" />
+      <workItem from="1556285280478" duration="3815000" />
+      <workItem from="1556291053771" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1544868290564</created>
@@ -746,17 +747,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208421000" />
+    <option name="totallyTimeSpent" value="239130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.20600858" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.21459228" />
       <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
       <window_info id="Favorites" order="2" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35060242" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.66024095" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -820,56 +821,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_douyin_appium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_quora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_raddit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/wxpy_send_message_manually.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/verified_proxies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_xml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python_Practise/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -992,13 +943,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/s3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/s3.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/boto3/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1054,16 +999,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/ec2_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/ec2_func.py" />
     <entry file="file://$PROJECT_DIR$/Python_Practise/pa_pexels_download.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-61">
@@ -1110,127 +1046,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/modify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/modify.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/remove_duplicated.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/server-side.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/temp.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/lambda_dynamodb.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/guru.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/id_name.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/compare.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/check.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/docker-devops.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/download.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/acloudguru.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/folder_create_test.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/check_modify.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/check_rename_3.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/file_rename_public.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/remove_duplicated.py">
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/file_rename.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/server-side.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/temp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <element signature="e#169#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/lambda_dynamodb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/guru.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/id_name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/acloudguru.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="e#334#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="27" lean-forward="true" selection-end-line="40" selection-end-column="71" />
+        <state relative-caret-position="136">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py">
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="76" />
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/check_modify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="20" column="42" lean-forward="true" selection-end-line="51" selection-end-column="42" />
-          <folding>
-            <element signature="e#66#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
