@@ -4,27 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py" line="895" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/file_rename.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practise/aws/file_rename_public.py" afterDir="false" />
+    <list default="true" id="956c27e7-3232-4a4b-90e0-1396885fc8ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/acloudguru.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/check_modify.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/compare.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/dynamodb_update.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/ec2_func.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/guru.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/id_name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/lambda_dynamodb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/modify.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/remove_duplicated.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/s3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/server-side.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/temp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/write_dynamodb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,15 +24,17 @@
     <SUITE FILE_PATH="coverage/Python_Study$pa_wechat_mp.coverage" NAME="pa_wechat_mp Coverage Results" MODIFIED="1547564705057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$compare.coverage" NAME="compare Coverage Results" MODIFIED="1555811867374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$kugou2__1_.coverage" NAME="kugou2 (1) Coverage Results" MODIFIED="1547146306587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/Python_Study$caipiao_generate.coverage" NAME="caipiao_generate Coverage Results" MODIFIED="1556417659361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_91.coverage" NAME="pa_91 Coverage Results" MODIFIED="1555153475558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$caipiao2.coverage" NAME="caipiao2 Coverage Results" MODIFIED="1550669806741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$rename.coverage" NAME="rename Coverage Results" MODIFIED="1556289293931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_airbnb.coverage" NAME="pa_airbnb Coverage Results" MODIFIED="1543498428315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$dengchashulie.coverage" NAME="dengchashulie Coverage Results" MODIFIED="1544624004671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$itchat_f_m.coverage" NAME="itchat_f_m Coverage Results" MODIFIED="1546241538178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
-    <SUITE FILE_PATH="coverage/Python_Study$delete_dynamodb_tables.coverage" NAME="delete_dynamodb_tables Coverage Results" MODIFIED="1556291663391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
+    <SUITE FILE_PATH="coverage/Python_Study$delete_dynamodb_tables.coverage" NAME="delete_dynamodb_tables Coverage Results" MODIFIED="1556680407213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$check_rename_3.coverage" NAME="check_rename_3 Coverage Results" MODIFIED="1556284979032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$kugou2.coverage" NAME="kugou2 Coverage Results" MODIFIED="1546955004692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/Python_Study$class_practice.coverage" NAME="class_practice Coverage Results" MODIFIED="1556351364348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise/aws" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_airasia.coverage" NAME="pa_airasia Coverage Results" MODIFIED="1546667243488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$pa_douyin_appium.coverage" NAME="pa_douyin_appium Coverage Results" MODIFIED="1547681408385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
     <SUITE FILE_PATH="coverage/Python_Study$ipproxy_pool_test.coverage" NAME="ipproxy_pool_test Coverage Results" MODIFIED="1547863682857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Practise" />
@@ -115,20 +99,7 @@
     <favorites_list name="Python_Study" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,7 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>azure-web-apps-vsts</find>
       <find>aws-windows-admin</find>
       <find>aws-rds</find>
       <find>aws-dynamodb</find>
@@ -169,6 +139,7 @@
       <find>bf5eaac6-86a5-905b-258c-51f93425f28b</find>
       <find>gcp-101</find>
       <find>intro-to-azure</find>
+      <find>hash</find>
     </findStrings>
     <replaceStrings>
       <replace>docker-fundamentals</replace>
@@ -209,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python_Practise/wxpy_send_message_manually.py" />
-        <option value="$PROJECT_DIR$/Python_Practise/pa_12306.py" />
         <option value="$PROJECT_DIR$/Python_Practise/wxpy_send_msg_auto.py" />
         <option value="$PROJECT_DIR$/Python_Practise/ipproxy_pool.py" />
         <option value="$PROJECT_DIR$/Python_Practise/pa_chinatax_2.py" />
@@ -259,13 +228,17 @@
         <option value="$PROJECT_DIR$/Python_Practise/aws/rename.py" />
         <option value="$PROJECT_DIR$/Python_Practise/aws/file_rename_public.py" />
         <option value="$PROJECT_DIR$/Python_Practise/aws/file_rename.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/aws/class_practice.py" />
+        <option value="$PROJECT_DIR$/Python_Practise/caipiao_generate.py" />
         <option value="$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="218" />
+    <option name="y" value="24" />
+    <option name="width" value="866" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -314,7 +287,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.delete_dynamodb_tables">
-    <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="caipiao_generate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,12 +295,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise/aws" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Practise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/check.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/caipiao_generate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,7 +331,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,7 +344,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/compare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practise/aws/class_practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -448,19 +421,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.kugou2 (1)" />
-      <item itemvalue="Python.check" />
-      <item itemvalue="Python.compare" />
       <item itemvalue="Python.rename" />
       <item itemvalue="Python.check_rename_3" />
       <item itemvalue="Python.delete_dynamodb_tables" />
+      <item itemvalue="Python.class_practice" />
+      <item itemvalue="Python.caipiao_generate" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.delete_dynamodb_tables" />
+        <item itemvalue="Python.caipiao_generate" />
+        <item itemvalue="Python.class_practice" />
         <item itemvalue="Python.rename" />
         <item itemvalue="Python.check_rename_3" />
-        <item itemvalue="Python.compare" />
-        <item itemvalue="Python.check" />
       </list>
     </recent_temporary>
   </component>
@@ -559,7 +532,11 @@
       <workItem from="1555459038336" duration="85835000" />
       <workItem from="1556239702958" duration="4893000" />
       <workItem from="1556285280478" duration="3815000" />
-      <workItem from="1556291053771" duration="905000" />
+      <workItem from="1556291053771" duration="963000" />
+      <workItem from="1556351057965" duration="323000" />
+      <workItem from="1556417335101" duration="466000" />
+      <workItem from="1556545948393" duration="54000" />
+      <workItem from="1556679556861" duration="2592000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1544868290564</created>
@@ -743,21 +720,28 @@
       <option name="project" value="LOCAL" />
       <updated>1552088776063</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update">
+      <created>1556292978176</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1556292978177</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239130000" />
+    <option name="totallyTimeSpent" value="242623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.21459228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.22603719" />
       <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
       <window_info id="Favorites" order="2" sideWeight="0.50139666" side_tool="true" weight="0.20314735" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.66024095" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22650602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -821,40 +805,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python_Practise/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#748#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_jd_app_commit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13350">
-          <caret line="895" selection-start-line="895" selection-end-line="895" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_mongo_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python_Practise/pa_wallpaper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -873,16 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Practise/nordvpn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,10 +1016,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/aws/class_practice.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/caipiao_generate.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Practise/nordvpn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou_asyncio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="707" column="66" lean-forward="true" selection-start-line="707" selection-start-column="66" selection-end-line="707" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Practise/pa_kugou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python_Practise/aws/delete_dynamodb_tables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
