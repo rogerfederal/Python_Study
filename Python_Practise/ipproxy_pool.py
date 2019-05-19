@@ -4,8 +4,6 @@ import requests
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from concurrent.futures import ProcessPoolExecutor
-# import logging
-# logging.basicConfig(level=logging.DEBUG,format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 
 
 proxy_url = 'https://raw.githubusercontent.com/fate0/proxylist/master/proxy.list'
